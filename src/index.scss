@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  // @include background-image('../public/background.png');
+  // background-image: url('/public/background.png');
 }
 
 code {
