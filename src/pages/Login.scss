@@ -2,6 +2,18 @@
   width: 100vw;
   height: 100vh;
   // @include background('../public/background.png');
-    // background-image: url('/public/background.png');
+  // background-image: url('/public/background.png');
+}
 
+.card {
+  top: 1rem;
+  left: 676px;
+  width: 568px;
+  // height: 647px;
+  max-width: 375;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  justify-content: center;
+  margin: auto;
 }
