@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
+import Header from "../components/Header";
+import Sidebar from "../components/Sidebar";
+import ViewScreen from "../components/ViewScreen";
+import './System.scss'
 
 function System() {
   return (
-    <div>System</div>
-  )
+    <div className="system">
+      <Header />
+      <div className="content">
+        <Sidebar />
+        <ViewScreen />
+      </div>
+    </div>
+  );
 }
 
-export default System
+export default System;

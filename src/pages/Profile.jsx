@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import ProfileDetails from "../components/ProfileDetails";
+import Sidebar from "../components/Sidebar";
+import './Profile.scss'
 
 function Profile() {
   return (
-    <div>Profile</div>
-  )
+    <div className="profile">
+      <Sidebar />
+      <ProfileDetails />
+    </div>
+  );
 }
 
-export default Profile
+export default Profile;

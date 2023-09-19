@@ -1,0 +1,51 @@
+.profileDetails {
+  padding: 3rem;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  grid-gap: 20px; /* Adjust the gap between items */
+}
+
+.gridItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.h15 {
+  // color: $textHeader;
+  text-align: start;
+  color: red;
+}
+
+.h16 {
+  text-align: start;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.separator > h3 {
+  color: red;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.25em;
+}

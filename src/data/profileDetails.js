@@ -1,0 +1,31 @@
+export const profileDetails = [
+  { fieldName: "FirstName", value: "Sanjay" },
+  { fieldName: "LastName", value: "Anuchuri" },
+  { fieldName: "DisplayName", value: "Sanjay" },
+  { fieldName: "Iam", value: "Individual" },
+  { fieldName: "Gender", value: "Male" },
+  { fieldName: "Designation", value: "Software Engineer" },
+  { fieldName: "Industry", value: "Software" },
+  { fieldName: "Website", value: "morrismedia.com" },
+  { fieldName: "Address", value: "Akshay Nagar, Rammurthy nagar" },
+  { fieldName: "City", value: "Bangalore" },
+  { fieldName: "State", value: "Karnataka" },
+  { fieldName: "Country", value: "India" },
+];
+export const workDetails = [
+  { fieldName: "Company", value: "Microsoft Corporation" },
+  { fieldName: "Company Type", value: "Partnership" },
+  { fieldName: "Industries", value: "Information technologies" },
+  { fieldName: "Comapany Headcount", value: "100-150" },
+  { fieldName: "Work Email Address", value: "info@microsoft.com" },
+  { fieldName: "Company Website", value: "microsoft.com" },
+  { fieldName: "Company Headquarters", value: "Bangalore" },
+  {
+    fieldName: "Work Address",
+    value: "Akshya Nagar 1st Block, Rammurthy Nag…",
+  },
+  { fieldName: "Work City", value: "Bangalore" },
+  { fieldName: "Work State", value: "Karnataka" },
+  { fieldName: "Work Country", value: "India" },
+  { fieldName: "Department", value: "Accounting" },
+];
